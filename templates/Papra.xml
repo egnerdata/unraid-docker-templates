@@ -21,12 +21,6 @@ That's it, your Papra server is ready!</Overview>
   <WebUI>http://[IP]:[PORT:1221]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Egnerdata/unraid-docker-templates/main/templates/Papra.xml</TemplateURL>
   <Icon>https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/papra.png</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DonateText/>
-  <DonateLink/>
-  <Requires/>
   <Config Name="WebUI Port" Target="1221" Default="1221" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false">1221</Config>
   <Config Name="Database" Target="/app/app-data/db" Default="/mnt/user/appdata/papra/app-data/db" Mode="rw" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Documents" Target="/app/app-data/documents" Default="/mnt/user/appdata/papra/app-data/documents" Mode="rw" Type="Path" Display="always" Required="true" Mask="false"/>
