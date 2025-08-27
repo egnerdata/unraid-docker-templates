@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Papra</Name>
+  <Repository>ghcr.io/papra-hq/papra:latest</Repository>
+  <Registry>https://github.com/papra-hq/papra</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/papra-hq/papra/issues</Support>
+  <Project>https://github.com/papra-hq/papra</Project>
+  <Overview>Papra is a lightweight document management solution (DMS) that automatically imports, stores, and organizes your files. &#xD;
+A simpler alternative to Paperless. &#xD;
+&#xD;
+Installation:&#xD;
+&#xD;
+Fill in your App Base URL (ip or domain of server), listed below as "http://localhost:1221"&#xD;
+&#xD;
+That's it, your Papra server is ready!</Overview>
+  <Category>Productivity: Tools</Category>
+  <WebUI>http://[IP]:[PORT:1221]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Egnerdata/unraid-docker-templates/main/templates/Papra.xml</TemplateURL>
+  <Icon>https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/papra.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI Port" Target="1221" Default="1221" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false">1221</Config>
+  <Config Name="Database" Target="/app/app-data/db" Default="/mnt/user/appdata/papra/app-data/db" Mode="rw" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Documents" Target="/app/app-data/documents" Default="/mnt/user/appdata/papra/app-data/documents" Mode="rw" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="App Base URL (ip or domain of server)" Target="APP_BASE_URL" Default="http://localhost:1221" Mode="" Description="Replace with ip-adress/domain of server" Type="Variable" Display="always" Required="true" Mask="false">http://192.168.0.40:1221</Config>
+  <Config Name="User ID (PUID)" Target="PUID" Default="99" Mode="" Description="Container user ID" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="Group ID (PGID)" Target="PGID" Default="100" Mode="" Description="Container group ID" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <TailscaleStateDir/>
+</Container>
