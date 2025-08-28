@@ -19,6 +19,8 @@ This repository contains a custom Community Applications template for running **
    - `/mnt/user/appdata/papra/documents`
 4. Configure the **App Base URL**, port, and storage paths as needed.
 
+> Note: Steps 1–3 happen automatically when installing via Community Applications.
+
 ## Notes
 
 - You can use a local IP or a reverse proxy / domain name for the **App Base URL**.
