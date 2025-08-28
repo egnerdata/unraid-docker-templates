@@ -15,7 +15,8 @@ This repository contains a custom Community Applications template for running **
 
 ## Installation
 
-1. Copy the `Papra.xml` template into your Unraid `templates-user` folder.
+1. Copy the `Papra.xml` template into your Unraid templates-user folder:  
+   `/boot/config/plugins/dockerMan/templates-user/`
 2. Open Community Applications and install Papra using the template.
 3. Make sure the following folders exist (or are mapped correctly in the template):
    - `/mnt/user/appdata/papra/db`
