@@ -1,4 +1,7 @@
-# Unraid Docker Template for Papra
+<h1>
+  <img src="https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/icons/papra.png" width="64" height="64" alt="Papra Icon" />
+  Unraid Docker Template for Papra
+</h1>
 
 This repository contains a custom Community Applications template for running **[Papra](https://github.com/papra-hq/papra)** on Unraid.
 
@@ -20,6 +23,12 @@ This repository contains a custom Community Applications template for running **
 4. Configure the **App Base URL**, port, and storage paths as needed.
 
 > Note: Steps 1–3 happen automatically when installing via Community Applications.
+
+## Screenshots
+
+![Papra dashboard](https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/screenshots/papra-unraid_1.png)
+![Papra container settings](https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/screenshots/screenshot2.png)
+![Papra container](https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/screenshots/papra-unraid_3.png)
 
 ## Notes
 
