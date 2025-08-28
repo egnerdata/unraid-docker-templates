@@ -25,7 +25,8 @@ This repository contains a custom Community Applications template for running **
 
 ### Installation via Community Applications (recommended)
 Once/if the template is accepted into CA, you can install Papra directly from Community Applications.  
-All required folders and mappings will then be created automatically.
+
+> Note: All required folders and mappings will be created automatically regardless of installation method.
 
 ## Screenshots
 
