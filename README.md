@@ -23,6 +23,10 @@ This repository contains a custom Community Applications template for running **
 
 > Note: Step 1 happen automatically when installing via Community Applications.
 
+### Installation via Community Applications (recommended)
+Once/if the template is accepted into CA, you can install Papra directly from Community Applications.  
+All required folders and mappings will then be created automatically.
+
 ## Screenshots
 
 ![Papra dashboard](https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/screenshots/papra-unraid_1.png)
