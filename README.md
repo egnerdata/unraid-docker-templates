@@ -27,7 +27,9 @@ This repository contains a custom Community Applications template for running **
 ## Screenshots
 
 ![Papra dashboard](https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/screenshots/papra-unraid_1.png)
+
 ![Papra container settings](https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/screenshots/papra-unraid_2.png)
+
 ![Papra container](https://raw.githubusercontent.com/egnerdata/unraid-docker-templates/main/screenshots/papra-unraid_3.png)
 
 ## Notes
